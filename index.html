@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda Telefonica</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body onload="draw()">
+    <h1>Agenda</h1>
+    <section class="addValue">
+        <form id="form" onsubmit="adauga(this,event)">
+            <label for="">Nume: <input type="text" name="name" placeholder="Introdu numele..."></label>
+            <label for="">Telefon: <input type="text" name="phone" placeholder="Introdu numarul de telefon..."></label>
+            <button onclick="adauga(form,event)">ADAUGA CONTACT</button>
+        </form>
+    </section>
+    
+    <section class="storeValue hidden">
+        <table class="tabel" id="list">
+            <thead>
+                <tr>
+                    <th id="nameHead"> <p>Nume</p></th>
+                    <th id="phoneHead"> <p>Telefon</p></th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+          </section>
+    
+</body>
+</html>

@@ -1,0 +1,87 @@
+body {
+    background-color: #fef8e1;
+}
+
+h1 {
+    text-align: center;
+}
+.addValue {
+    display: flex;
+    flex-direction: column;
+    background-color: #feca27;
+    width: 500px;
+    margin: 0 auto;
+    padding: 2em 3em;
+    border-radius: 5px;
+
+}
+
+input {
+    height: 1.6em;
+    border: 0px;
+    border-radius: 5px;
+    margin: 11px;
+}
+input:focus {
+    outline: 2px solid grey;
+
+}
+
+button {
+    margin-left: 175px;
+    width: fit-content;
+    height: 2.6em;
+    border-radius: 5px;
+    background-color: #3f50b5;
+    color: white;
+}
+
+button:hover{
+    background-color: #2f3a76;
+    cursor: pointer;
+}
+
+
+.hidden { 
+    display: none !important;
+}
+
+.storeValue {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #feca27;
+    width: 500px;
+    max-height: fit-content;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 2em 3em;
+    border-radius: 5px;
+}
+
+#nameHead {
+    padding-left: 15px;
+}
+
+#phoneHead {
+    padding-left: 120px;
+}
+
+.phoneRow {
+    padding-left: 135px;
+    text-align: center;
+}
+
+.nameRow {
+    padding-left: 20px;
+    text-align: center;
+
+}
+
+.editeaza, .sterge {
+    margin-left: 40px;
+}
+
+.error {
+    background-color: red;
+}
